@@ -1,0 +1,22 @@
+package service;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import model.Employee;
+
+public interface EmployeeInterface {
+	
+	List<Employee> getEmpById();
+	
+	
+	
+	static void empList() {
+		List<Employee> empAl = new ArrayList<Employee>();
+		empAl.add(new Employee(101, "Datta", "DATA101", "SW", 10000, 01082019));
+	}
+	
+	
+	
+	
+}

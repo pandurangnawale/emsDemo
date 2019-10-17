@@ -1,0 +1,19 @@
+package serviceImpl;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import model.Employee;
+import service.EmployeeInterface;
+
+public class ServiceImplimentation implements EmployeeInterface{
+
+	@Override
+	public List<Employee> getEmpById() {
+		
+		List<Employee> empAl= EmployeeInterface.empList();
+		
+		return empAl;
+	}
+
+}
