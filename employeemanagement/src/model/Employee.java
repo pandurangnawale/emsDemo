@@ -1,8 +1,5 @@
 package model;
 
-import java.util.Date;
-import java.util.Scanner;
-
 public class Employee {
 	int empId;
 	String empName;
@@ -20,11 +17,8 @@ public class Employee {
 		this.department = department;
 		this.salary = salary;
 		this.dateOfjoin = dateOfjoin;
-		this.project=project;
-		
+		this.project=project;		
 	}
-
-	
 	
 	public String getProject() {
 		return project;
